@@ -1,0 +1,29 @@
+{
+  "name": "mihajlo/apiql",
+  "description": "ApiQL - Automated Rest API for MySql databases",
+  "keywords": [
+    "apiql",
+    "apiql.net",
+    "restapi",
+    "restservice",
+    "mysql",
+    "automation"
+  ],
+  "homepage": "https://apiql.net/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mihajlo Siljanoski",
+      "homepage": "https://www.linkedin.com/in/msiljanoski/"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+        "files": ["src/Apiql.php"]
+  }
+}
